@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arman Christian Q. Mendoza | Accounting & Financial Management Professional</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    }
+  </script>
+</head>
+<body class="bg-white dark:bg-slate-950 text-slate-800 dark:text-slate-100 font-sans antialiased transition-colors duration-300 selection:bg-emerald-500 selection:text-white">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 w-full bg-white/80 dark:bg-slate-900/80 backdrop-blur-md z-40 border-b border-slate-200 dark:border-slate-800 transition-colors">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-xl font-bold tracking-tight text-slate-900 dark:text-white">
+        Arman Christian Q Mendoza<span class="text-emerald-500">.</span>
+      </a>
+      
+      <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-600 dark:text-slate-300">
+        <a href="#about" class="hover:text-emerald-500 dark:hover:text-emerald-400 transition">About</a>
+        <a href="#experience" class="hover:text-emerald-500 dark:hover:text-emerald-400 transition">Experience</a>
+        <a href="#skills" class="hover:text-emerald-500 dark:hover:text-emerald-400 transition">Skills & Certs</a>
+        <a href="#contact" class="hover:text-emerald-500 dark:hover:text-emerald-400 transition">Contact</a>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:text-emerald-500 dark:hover:text-emerald-400 transition border border-slate-200 dark:border-slate-700">
+          <span id="theme-toggle-dark-icon" class="hidden">🌙</span>
+          <span id="theme-toggle-light-icon">☀️</span>
+        </button>
+
+        <a href="mailto:acq.mendoza@gmail.com" class="hidden sm:inline-block bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold px-4 py-2 rounded-lg text-sm transition">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="about" class="pt-32 pb-20 md:pt-40 md:pb-28 max-w-6xl mx-auto px-6">
+    <div class="grid md:grid-cols-12 gap-12 items-center">
+      
+      <!-- Text Intro -->
+      <div class="md:col-span-7 space-y-6">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-xs font-semibold tracking-wide border border-emerald-500/20">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          QBO Advanced & Bill.com Certified Professional
+        </div>
+        
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight text-slate-900 dark:text-white">
+          Arman Christian Q. Mendoza
+        </h1>
+        
+        <p class="text-lg md:text-xl text-slate-600 dark:text-slate-400 leading-relaxed">
+          Accounting & Financial Management Specialist with over <span class="text-slate-900 dark:text-slate-200 font-semibold">12 years of public sector finance experience</span>. Expert in full-cycle accounting, large-scale payroll administration, auditing & reconciliation, and AI-driven workflow automation.
+        </p>
+
+        <!-- CTA & Download Resume Buttons -->
+        <div class="flex flex-wrap gap-4 pt-4">
+          <a href="#contact" class="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold px-6 py-3 rounded-lg shadow-lg shadow-emerald-500/10 transition">
+            Hire / Contact Me
+          </a>
+          
+          <!-- Download Resume Button -->
+          <a href="CV_Arman_Christian_Mendoza.pdf" download class="inline-flex items-center gap-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-semibold px-6 py-3 rounded-lg border border-slate-300 dark:border-slate-700 transition">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+            Download Resume (PDF)
+          </a>
+        </div>
+
+        <div class="pt-4 text-xs text-slate-500 dark:text-slate-400 flex items-center gap-2">
+          <span>📍 Tanza, Cavite, Philippines</span>
+          <span>•</span>
+          <span>📞 +63 917 859 0236</span>
+        </div>
+      </div>
+
+      <!-- Centered Floating Circular Badge Profile + Key Metrics Container -->
+      <div class="md:col-span-5 relative pt-12">
+        
+        <!-- Top-Centered Circular Profile Picture (Clickable to Zoom / View) -->
+        <div 
+          onclick="openImageModal('profile.jpg', 'Arman Christian Q. Mendoza')" 
+          title="Click to view photo"
+          class="absolute -top-10 left-1/2 -translate-x-1/2 z-10 w-28 h-28 sm:w-32 sm:h-32 rounded-full p-1 bg-gradient-to-tr from-emerald-500 via-emerald-400 to-slate-400 dark:to-slate-800 shadow-2xl hover:scale-110 cursor-pointer transition duration-300 group"
+        >
+          <div class="w-full h-full rounded-full overflow-hidden bg-slate-100 dark:bg-slate-900 border-2 border-white dark:border-slate-900 relative">
+            <img 
+              src="profile.jpg" 
+              alt="Arman Christian Q. Mendoza" 
+              class="w-full h-full object-cover object-center scale-x-[-1]"
+            >
+            <!-- Hover Zoom Icon Overlay -->
+            <div class="absolute inset-0 bg-slate-900/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition duration-200">
+              <span class="text-white text-lg font-bold">🔍</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Key Metrics Card -->
+        <div class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 pt-20 space-y-6 shadow-xl text-center md:text-left">
+          <h3 class="text-xs font-semibold uppercase tracking-wider text-slate-400">Career Impact</h3>
+          <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
+            <div class="text-3xl font-bold text-emerald-500 dark:text-emerald-400">12+ Years</div>
+            <div class="text-xs text-slate-500 dark:text-slate-400 mt-1">Government & Public Sector Finance</div>
+          </div>
+          <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
+            <div class="text-3xl font-bold text-emerald-500 dark:text-emerald-400">25,000+</div>
+            <div class="text-xs text-slate-500 dark:text-slate-400 mt-1">Personnel Payroll Managed & Processed</div>
+          </div>
+          <div>
+            <div class="text-3xl font-bold text-emerald-500 dark:text-emerald-400">100% Audit</div>
+            <div class="text-xs text-slate-500 dark:text-slate-400 mt-1">Compliance & Clean Record</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Core Competencies -->
+  <section class="py-16 bg-slate-50/50 dark:bg-slate-900/50 border-y border-slate-200 dark:border-slate-800">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-widest mb-2">Core Competencies</h2>
+      <p class="text-2xl font-bold text-slate-900 dark:text-white mb-8">Specialized Financial Capabilities</p>
+      
+      <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <div class="text-emerald-500 text-2xl mb-3">📑</div>
+          <h3 class="font-semibold text-slate-900 dark:text-white mb-2">General Ledger & Bookkeeping</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-sm">Full-cycle bookkeeping, AP/AR management, and accurate financial statement preparation.</p>
+        </div>
+        <div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <div class="text-emerald-500 text-2xl mb-3">👥</div>
+          <h3 class="font-semibold text-slate-900 dark:text-white mb-2">Large-Scale Payroll</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-sm">End-to-end management of multimillion-peso payroll operations for 25,000+ personnel.</p>
+        </div>
+        <div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <div class="text-emerald-500 text-2xl mb-3">🔍</div>
+          <h3 class="font-semibold text-slate-900 dark:text-white mb-2">Auditing & Reconciliation</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-sm">Bank reconciliation, expense monitoring, and maintaining audit-ready COA compliance.</p>
+        </div>
+        <div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <div class="text-emerald-500 text-2xl mb-3">🤖</div>
+          <h3 class="font-semibold text-slate-900 dark:text-white mb-2">AI Workflow Automation</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-sm">Streamlining accounting processes using n8n AI Agents and modern digital tools.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience -->
+  <section id="experience" class="py-20 max-w-6xl mx-auto px-6">
+    <h2 class="text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-widest mb-2">Career Journey</h2>
+    <p class="text-3xl font-bold text-slate-900 dark:text-white mb-12">Professional Experience</p>
+
+    <div class="space-y-8">
+      <!-- Role 1 -->
+      <div class="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
+          <div>
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white">Assistant Comptroller</h3>
+            <p class="text-emerald-600 dark:text-emerald-400 font-medium">Philippine Coast Guard - Coast Guard Fleet</p>
+          </div>
+          <span class="text-xs font-semibold px-3 py-1 bg-slate-200 dark:bg-slate-800 rounded-full text-slate-700 dark:text-slate-300 w-max">2024 - Present</span>
+        </div>
+        <ul class="list-disc list-inside text-slate-600 dark:text-slate-400 space-y-2 text-sm leading-relaxed">
+          <li>Assist in preparing and consolidating the fleet's annual operating budget, ensuring full compliance with audit and government financial standards</li>
+          <li>Oversee allocation of funds for operations, logistics, and maintenance, maintaining tight expenditure control and accountability.</li>
+          <li>Streamline reporting and documentation systems, reducing financial report turnaround time.</li>
+          <li>Support reconciliation and validation processes to ensure accurate, transparent budget execution.</li>
+        </ul>
+      </div>
+
+      <!-- Role 2 -->
+      <div class="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
+          <div>
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white">Financial Management Officer</h3>
+            <p class="text-emerald-600 dark:text-emerald-400 font-medium">Philippine Navy - Finance Center</p>
+          </div>
+          <span class="text-xs font-semibold px-3 py-1 bg-slate-200 dark:bg-slate-800 rounded-full text-slate-700 dark:text-slate-300 w-max">2012 - 2024</span>
+        </div>
+        <ul class="list-disc list-inside text-slate-600 dark:text-slate-400 space-y-2 text-sm leading-relaxed">
+          <li>Led end-to-end payroll accounting for 25,000+ military and civilian personnel for over 12 years, ensuring 100% accuracy and timely disbursement.</li>
+          <li>Managed multimillion-peso Personnel Services funds, including accounts payable, receivable, and liquidation of obligations.</li>
+          <li>Implemented internal control systems to ensure zero audit findings and enhanced financial transparency.</li>
+          <li>Prepared monthly, quarterly, and annual financial statements, maintaining strict compliance with audit and government reporting standards.</li>
+          <li>Trained and supervised junior accountants in bookkeeping, records management, and payroll processing, improving team efficiency.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications, Education & Tech Stack -->
+  <section id="skills" class="py-20 bg-slate-50/50 dark:bg-slate-900/50 border-t border-slate-200 dark:border-slate-800">
+    <div class="max-w-6xl mx-auto px-6 space-y-16">
+      
+      <!-- Certifications -->
+      <div>
+        <h2 class="text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-widest mb-2">Credentials</h2>
+        <p class="text-2xl font-bold text-slate-900 dark:text-white mb-2">Certifications & Training</p>
+        <p class="text-xs text-slate-500 mb-8">* Click any certification card to view attached PDF certificates</p>
+        
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- Cert Card 1: QuickBooks Online (2 Certs) -->
+          <div onclick="openMultiModal(
+                'QuickBooks Online Certifications (2)', 
+                'Includes QuickBooks Online ProAdvisor Certification and ProAdvisor Advanced Level Certification (2025).', 
+                [
+                  { name: 'QBO Advanced Certification', url: 'certificates/AdvancedQuickBooksOnlineCertification - Arman Christian Mendoza.pdf' },
+                  { name: 'QBO ProAdvisor Certification', url: 'certificates/QuickBooksOnlineCertification - Arman Christian Mendoza.pdf' }
+                ]
+               )" 
+               class="cursor-pointer bg-white dark:bg-slate-900 p-5 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-emerald-500 transition shadow-sm group">
+            <div class="flex items-center gap-4">
+              <div class="text-3xl">🏆</div>
+              <div>
+                <h4 class="font-semibold text-slate-900 dark:text-white text-sm group-hover:text-emerald-500 transition">QuickBooks Online (Advanced)</h4>
+                <p class="text-xs text-slate-500 mt-1">Intuit | 2025 • <span class="text-emerald-500 font-medium">View Certs (2) 🔍</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert Card 2: Bill.com (3 Certs) -->
+          <div onclick="openMultiModal(
+                'Bill.com Certifications (3)', 
+                'Includes Accountant Certification, Accounts Payable (AP), and Accounts Receivable (AR) Certifications (2025).', 
+                [
+                  { name: 'Bill.com Accountant Certification', url: 'certificates/Bill_Accountant Certification CPE Credit.pdf' },
+                  { name: 'Accounts Payable Certification', url: 'certificates/Accounts Payable Certification.pdf' },
+                  { name: 'Accounts Receivable Certification', url: 'certificates/Accounts Receivable Certification.pdf' }
+                ]
+               )" 
+               class="cursor-pointer bg-white dark:bg-slate-900 p-5 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-emerald-500 transition shadow-sm group">
+            <div class="flex items-center gap-4">
+              <div class="text-3xl">💳</div>
+              <div>
+                <h4 class="font-semibold text-slate-900 dark:text-white text-sm group-hover:text-emerald-500 transition">Bill.com Certified (3 Badges)</h4>
+                <p class="text-xs text-slate-500 mt-1">Bill.com | 2025 • <span class="text-emerald-500 font-medium">View Certs (3) 🔍</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert Card 3: n8n AI Agent Builder (1 Cert) -->
+          <div onclick="openMultiModal(
+                'n8n No-Code AI Agent Builder', 
+                'Advanced automation and custom AI agent creation for accounting workflows (2025).', 
+                [
+                  { name: 'n8n AI Agent Certification', url: 'certificates/n8n.pdf' }
+                ]
+               )" 
+               class="cursor-pointer bg-white dark:bg-slate-900 p-5 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-emerald-500 transition shadow-sm group">
+            <div class="flex items-center gap-4">
+              <div class="text-3xl">🤖</div>
+              <div>
+                <h4 class="font-semibold text-slate-900 dark:text-white text-sm group-hover:text-emerald-500 transition">n8n AI Agent Builder</h4>
+                <p class="text-xs text-slate-500 mt-1">n8n | 2025 • <span class="text-emerald-500 font-medium">View Cert 🔍</span></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Education & Tech Stack Row -->
+      <div class="grid md:grid-cols-2 gap-12 pt-8 border-t border-slate-200 dark:border-slate-800">
+        
+        <!-- Education -->
+        <div>
+          <h2 class="text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-widest mb-2">Education</h2>
+          <p class="text-2xl font-bold text-slate-900 dark:text-white mb-6">Academic Background</p>
+          
+          <div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm flex items-center gap-4">
+            <div class="text-emerald-500 text-3xl">🎓</div>
+            <div>
+              <h4 class="font-semibold text-slate-900 dark:text-white text-base">Bachelor of Science in Accountancy</h4>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Polytechnic University of the Philippines | 2005 - 2009</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tech Stack -->
+        <div>
+          <h2 class="text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-widest mb-2">Tech Stack</h2>
+          <p class="text-2xl font-bold text-slate-900 dark:text-white mb-6">Software & Systems Mastery</p>
+          
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <div class="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 text-center shadow-sm">
+              <div class="text-2xl mb-1">⚡</div>
+              <h4 class="font-semibold text-slate-900 dark:text-white text-xs">QuickBooks Online</h4>
+              <p class="text-[10px] text-slate-500 mt-0.5">Advanced ProAdvisor</p>
+            </div>
+
+            <div class="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 text-center shadow-sm">
+              <div class="text-2xl mb-1">💳</div>
+              <h4 class="font-semibold text-slate-900 dark:text-white text-xs">Bill.com</h4>
+              <p class="text-[10px] text-slate-500 mt-0.5">Accountant, AP & AR</p>
+            </div>
+
+            <div class="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 text-center shadow-sm">
+              <div class="text-2xl mb-1">🤖</div>
+              <h4 class="font-semibold text-slate-900 dark:text-white text-xs">n8n AI Automation</h4>
+              <p class="text-[10px] text-slate-500 mt-0.5">No-Code Agent Builder</p>
+            </div>
+
+            <div class="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 text-center shadow-sm">
+              <div class="text-2xl mb-1">📊</div>
+              <h4 class="font-semibold text-slate-900 dark:text-white text-xs">MS Excel / Sheets</h4>
+              <p class="text-[10px] text-slate-500 mt-0.5">Business Analytics</p>
+            </div>
+
+            <div class="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 text-center shadow-sm">
+              <div class="text-2xl mb-1">☁️</div>
+              <h4 class="font-semibold text-slate-900 dark:text-white text-xs">Google Cloud</h4>
+              <p class="text-[10px] text-slate-500 mt-0.5">Digital Transformation</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 max-w-4xl mx-auto px-6 text-center">
+    <div class="bg-slate-50 dark:bg-slate-900 p-10 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-2xl space-y-6">
+      <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white">Let's Work Together</h2>
+      <p class="text-slate-600 dark:text-slate-400 max-w-xl mx-auto text-sm">
+        Ready to optimize your financial operations and integrate modern automation? Reach out today!
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+        <a href="mailto:acq.mendoza@gmail.com" class="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold px-8 py-3 rounded-xl transition">
+          acq.mendoza@gmail.com
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Lightbox Modal (For Profile Pic Zoom) -->
+  <div id="imageModal" class="fixed inset-0 bg-black/80 z-50 hidden flex items-center justify-center p-4 backdrop-blur-md transition-all duration-300" onclick="closeImageModal()">
+    <div class="relative max-w-md w-full bg-slate-900 border border-slate-800 rounded-3xl p-4 shadow-2xl flex flex-col items-center" onclick="event.stopPropagation()">
+      <button onclick="closeImageModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-xl font-bold z-10 w-8 h-8 rounded-full bg-slate-800/80 flex items-center justify-center">✕</button>
+      <div class="w-64 h-64 sm:w-80 sm:h-80 rounded-2xl overflow-hidden border-2 border-emerald-500/50 my-2">
+        <img id="zoomImage" src="" alt="Profile Photo" class="w-full h-full object-cover">
+      </div>
+      <p id="zoomImageCaption" class="text-sm font-semibold text-slate-200 mt-2 text-center"></p>
+      <p class="text-xs text-slate-500 mt-1">Click outside to close</p>
+    </div>
+  </div>
+
+  <!-- PDF / Multi-Document Viewer Modal -->
+  <div id="certModal" class="fixed inset-0 bg-black/70 z-50 hidden flex items-center justify-center p-4 backdrop-blur-sm">
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 max-w-4xl w-full max-h-[90vh] rounded-2xl p-6 relative flex flex-col space-y-4">
+      <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-xl font-bold z-10">✕</button>
+      
+      <div>
+        <h3 id="modalTitle" class="text-xl font-bold text-slate-900 dark:text-white"></h3>
+        <p id="modalDesc" class="text-xs text-slate-500 dark:text-slate-400 mt-1"></p>
+      </div>
+
+      <!-- Scrollable Container for PDF Viewers -->
+      <div id="modalImagesContainer" class="overflow-y-auto space-y-6 pr-2 max-h-[70vh]">
+        <!-- PDF frames dynamic insertion -->
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Controls -->
+  <script>
+    // Theme Toggle Logic
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const darkIcon = document.getElementById('theme-toggle-dark-icon');
+    const lightIcon = document.getElementById('theme-toggle-light-icon');
+
+    themeToggleBtn.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+      darkIcon.classList.toggle('hidden');
+      lightIcon.classList.toggle('hidden');
+    });
+
+    // Profile Image Modal (Zoom) Logic
+    function openImageModal(imgSrc, caption) {
+      document.getElementById('zoomImage').src = imgSrc;
+      document.getElementById('zoomImageCaption').innerText = caption;
+      document.getElementById('imageModal').classList.remove('hidden');
+    }
+
+    function closeImageModal() {
+      document.getElementById('imageModal').classList.add('hidden');
+    }
+
+    // Modal Logic for Displaying PDFs
+    function openMultiModal(title, desc, docsArray) {
+      document.getElementById('modalTitle').innerText = title;
+      document.getElementById('modalDesc').innerText = desc;
+      
+      const container = document.getElementById('modalImagesContainer');
+      container.innerHTML = ''; 
+
+      docsArray.forEach((doc) => {
+        const itemWrapper = document.createElement('div');
+        itemWrapper.className = 'space-y-2 border-b border-slate-200 dark:border-slate-800 pb-4 last:border-0';
+
+        const label = document.createElement('div');
+        label.className = 'text-xs font-semibold text-emerald-500 flex justify-between items-center';
+        label.innerHTML = `<span>📄 ${doc.name}</span> <a href="${doc.url}" target="_blank" class="hover:underline">Open in new tab ↗</a>`;
+        
+        const iframe = document.createElement('iframe');
+        iframe.src = doc.url;
+        iframe.className = 'w-full h-96 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800';
+
+        itemWrapper.appendChild(label);
+        itemWrapper.appendChild(iframe);
+        container.appendChild(itemWrapper);
+      });
+
+      document.getElementById('certModal').classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('certModal').classList.add('hidden');
+    }
+  </script>
+</body>
+</html>
